@@ -3,32 +3,25 @@
     padding: 0;
     font-family: sans-serif;
 }
-
-.container{
-    width: 100%;
-    min-height: 100vh;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
 .navbar{
     width: 100%;
     display: flex;
     align-items: center;
+    background-color: goldenrod;
+    position: sticky;
+    top: 0;
 }
-
 .logo{
     width: 50px;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 20px 1% ;
+     ;
 }
 .menu-icon{
     width: 25px;
     cursor: pointer;
+    margin-right: 1%;
 }
-
 nav{
     flex: 1;
     text-align: right;
@@ -38,10 +31,78 @@ nav ul li{
     display:inline-block;
     margin-right: 30px;
 }
-
 nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
+nav ul li a:hover{
+    color: saddlebrown;
+    font-size: 17px ;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.col-1 {
+    flex-basis: 40%;
+    /*position: relative;*/
+    margin-left: 50px;
+}
+.col-1 h2{
+    font-size: 54px;
+    margin-top: 10px;
+}
+.col-1 h3{
+    color: #707070;
+    margin: 20px 0 10px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.col-1 p{
+    font-size: 15px;
+    color: #b7b7b7;
+}
+.col-1 h4{
+    margin: 10px 0;
+}
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    /*outline: none; */
+    color: #fff;
+    background: linear-gradient(to right,#D4AF37,#986335);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+button img{
+    width: 30px;
+    display: none;
+}
+button:hover img{
+    display: block;
+}
+
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
