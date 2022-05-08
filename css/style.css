@@ -103,6 +103,36 @@ button:hover{
     align-items: center;
     justify-content: space-between;
 }
+/*.col-1::after{*/
+/*    content: "";*/
+/*    width: 10px;*/
+/*    height: 25%;*/
+/*    background: linear-gradient(#D4AF37,#986335);*/
+/*    position: absolute;*/
+/*    left: 152px;*/
+/*    top:49%;*/
+
+/*}*/
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.col-2 .truck-img{
+    width: 90%;
+}
+/*.col-2 .color-background-box{*/
+/*    position: relative;*/
+/*    right: 0;*/
+/*    top:0;*/
+/*    background: linear-gradient(#D4AF37,#986335);*/
+/*    border-radius: 20px 0 0 20px;*/
+/*    height: 100%;*/
+/*    width: 80%;*/
+/*    z-index: 5;*/
+/*    padding: 20;*/
+/*}*/
 
 
 
